@@ -1,7 +1,8 @@
 import os
 import sys
 import pandas as pd
-from datetime import date, timedelta
+from datetime import date
+from time import sleep
 from jugaad_data.nse import stock_df
 import logging
 
@@ -52,47 +53,62 @@ def fetch_and_save_stock_data(symbol: str, start: date, end: date):
 
         return True
     except Exception as e:
-        logging.error(f"[{symbol}] Error: {e}")
+        logging.error(f"[{symbol}] Error while fetching/saving: {e}")
+        return False
+
+def already_has_data(symbol: str, end: date):
+    path = os.path.join(raw_data_dir, f"{symbol}.csv")
+    if not os.path.exists(path):
+        return False
+    try:
+        df = pd.read_csv(path, parse_dates=["Date"])
+        return not df[df["Date"] >= pd.Timestamp(end)].empty
+    except Exception as e:
+        logging.warning(f"[{symbol}] Failed to read CSV: {e}")
         return False
 
 def main():
-    logging.info("==== Starting full yearly stock data download process ====")
-
-    start_from_symbol = sys.argv[1] if len(sys.argv) > 1 else None  # Example: "SBIN" to resume from a symbol
+    logging.info("==== Starting stock data download process ====")
 
     try:
         df_symbols = pd.read_csv(stock_list_path)
         symbols = df_symbols.iloc[:, 0].dropna().unique().tolist()
-        logging.info(f"Loaded {len(symbols)} unique symbols from {stock_list_path}")
-
-        if start_from_symbol and start_from_symbol in symbols:
-            start_index = symbols.index(start_from_symbol)
-            symbols = symbols[start_index:]
-            logging.info(f"Resuming from symbol: {start_from_symbol}")
-        elif start_from_symbol:
-            logging.warning(f"Symbol '{start_from_symbol}' not found. Starting from beginning.")
-
-        # Loop yearly from 2000 to 2025
-        for year in range(2000, 2026):
-            year_start = date(year, 1, 1)
-            year_end = date(year, 12, 31)
-            if year == 2025:
-                year_end = date(2025, 6, 15)
-
-            logging.info(f"==== Processing year: {year_start} to {year_end} ====")
-
-            for symbol in symbols:
-                logging.info(f"== Processing symbol: {symbol} ==")
-                success = fetch_and_save_stock_data(symbol.strip(), start=year_start, end=year_end)
-                if not success:
-                    logging.warning(f"[{symbol}] Skipped due to error.")
-
-        logging.info("==== Completed full yearly stock data download process ====")
-
-    except FileNotFoundError:
-        logging.error(f"Stock list file not found at {stock_list_path}")
+        logging.info(f"Loaded {len(symbols)} symbols from {stock_list_path}")
     except Exception as e:
-        logging.error(f"Unexpected error: {e}")
+        logging.error(f"Failed to load symbol list: {e}")
+        return
+
+    start_from_symbol = sys.argv[1] if len(sys.argv) > 1 else None
+    if start_from_symbol and start_from_symbol in symbols:
+        symbols = symbols[symbols.index(start_from_symbol):]
+        logging.info(f"Resuming from symbol: {start_from_symbol}")
+    elif start_from_symbol:
+        logging.warning(f"Symbol '{start_from_symbol}' not found. Starting from beginning.")
+
+    for symbol in symbols:
+        try:
+            logging.info(f"== Starting symbol: {symbol} ==")
+            for year in range(2000, 2026):
+                start_date = date(year, 1, 1)
+                end_date = date(year, 12, 31)
+                if year == 2025:
+                    end_date = date(2025, 6, 15)
+
+                if already_has_data(symbol, end_date):
+                    logging.info(f"[{symbol}] Already has data till {end_date}, skipping year {year}")
+                    continue
+
+                success = fetch_and_save_stock_data(symbol, start=start_date, end=end_date)
+                if not success:
+                    logging.warning(f"[{symbol}] Skipping year {year} due to fetch error.")
+                    break  # Stop processing this symbol if even one year fails
+
+                sleep(1)
+        except Exception as e:
+            logging.error(f"[{symbol}] Skipped due to unexpected symbol-level error: {e}")
+            continue  # Move to next symbol
+
+    logging.info("==== Completed stock data download process ====")
 
 if __name__ == "__main__":
     main()

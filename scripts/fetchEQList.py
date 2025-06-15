@@ -6,7 +6,7 @@ from io import StringIO
 
 # === Config ===
 folder_path = "data/stockList"
-file_path = os.path.join(folder_path, "NSE_CM.csv")
+file_path = os.path.join(folder_path, "stockList_raw.csv")
 url = "https://public.fyers.in/sym_details/NSE_CM.csv"
 
 # === Column names ===

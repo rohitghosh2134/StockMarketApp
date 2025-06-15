@@ -1,0 +1,6 @@
+#!/home/rohit/Coding/StockMarketApp/myenv/bin/python3
+
+import diagram
+import sys
+
+sys.exit(diagram.run())

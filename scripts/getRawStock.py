@@ -1,5 +1,7 @@
 import os
 import sys
+import platform
+import subprocess
 import pandas as pd
 from datetime import date
 from time import sleep
@@ -17,6 +19,10 @@ os.makedirs(os.path.dirname(stock_list_path), exist_ok=True)
 os.makedirs(raw_data_dir, exist_ok=True)
 os.makedirs(log_dir, exist_ok=True)
 
+# === Remove old log file if it exists ===
+if os.path.exists(log_file):
+    os.remove(log_file)
+
 # === Setup Logging ===
 logging.basicConfig(
     filename=log_file,
@@ -25,24 +31,51 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+# === Launch live log viewer in a new terminal ===
+def launch_log_viewer():
+    try:
+        system_platform = platform.system()
+        if system_platform == "Linux":
+            subprocess.Popen(["gnome-terminal", "--", "bash", "-c", f"tail -f {log_file}; exec bash"])
+        elif system_platform == "Darwin":  # macOS
+            subprocess.Popen(["osascript", "-e", f'tell app "Terminal" to do script "tail -f {log_file}"'])
+        elif system_platform == "Windows":
+            subprocess.Popen(['cmd', '/k', f'type {log_file} && powershell -Command "Get-Content {log_file} -Wait"'], shell=True)
+        else:
+            print(f"[LOG VIEWER] Unsupported platform: {system_platform}")
+    except Exception as e:
+        print(f"[LOG VIEWER] Failed to launch log viewer: {e}")
+
+launch_log_viewer()
+
+# === Fetch and save stock data ===
 def fetch_and_save_stock_data(symbol: str, start: date, end: date):
     try:
         logging.info(f"---- [{symbol}] Fetching data from {start} to {end} ----")
         new_df = stock_df(symbol=symbol, from_date=start, to_date=end, series="EQ")
+        sleep(1)  # Prevent overload
 
         output_path = os.path.join(raw_data_dir, f"{symbol}.csv")
 
+        new_df.columns = new_df.columns.str.lower()
+
         if os.path.exists(output_path):
             existing_df = pd.read_csv(output_path)
-            existing_df['Date'] = pd.to_datetime(existing_df['Date'])
-            new_df['Date'] = pd.to_datetime(new_df['Date'])
+            existing_df.columns = existing_df.columns.str.lower()
 
-            existing_dates = set(existing_df['Date'])
-            new_rows = new_df[~new_df['Date'].isin(existing_dates)]
+            if "date" not in existing_df.columns:
+                logging.warning(f"[{symbol}] Existing file has no 'date' column.")
+                return False
+
+            existing_df["date"] = pd.to_datetime(existing_df["date"])
+            new_df["date"] = pd.to_datetime(new_df["date"])
+
+            existing_dates = set(existing_df["date"])
+            new_rows = new_df[~new_df["date"].isin(existing_dates)]
 
             if not new_rows.empty:
                 combined_df = pd.concat([existing_df, new_rows], ignore_index=True)
-                combined_df.sort_values(by='Date', inplace=True)
+                combined_df.sort_values(by="date", inplace=True)
                 combined_df.to_csv(output_path, index=False)
                 logging.info(f"[{symbol}] Appended {len(new_rows)} new rows.")
             else:
@@ -56,17 +89,24 @@ def fetch_and_save_stock_data(symbol: str, start: date, end: date):
         logging.error(f"[{symbol}] Error while fetching/saving: {e}")
         return False
 
+# === Check if data for symbol already exists ===
 def already_has_data(symbol: str, end: date):
     path = os.path.join(raw_data_dir, f"{symbol}.csv")
     if not os.path.exists(path):
         return False
     try:
-        df = pd.read_csv(path, parse_dates=["Date"])
-        return not df[df["Date"] >= pd.Timestamp(end)].empty
+        df = pd.read_csv(path)
+        df.columns = df.columns.str.lower()
+        if "date" not in df.columns:
+            logging.warning(f"[{symbol}] 'date' column missing.")
+            return False
+        df["date"] = pd.to_datetime(df["date"])
+        return not df[df["date"] >= pd.Timestamp(end)].empty
     except Exception as e:
         logging.warning(f"[{symbol}] Failed to read CSV: {e}")
         return False
 
+# === Main execution function ===
 def main():
     logging.info("==== Starting stock data download process ====")
 
@@ -101,12 +141,11 @@ def main():
                 success = fetch_and_save_stock_data(symbol, start=start_date, end=end_date)
                 if not success:
                     logging.warning(f"[{symbol}] Skipping year {year} due to fetch error.")
-                    break  # Stop processing this symbol if even one year fails
+                    break
 
-                sleep(1)
         except Exception as e:
-            logging.error(f"[{symbol}] Skipped due to unexpected symbol-level error: {e}")
-            continue  # Move to next symbol
+            logging.error(f"[{symbol}] Skipped due to unexpected error: {e}")
+            continue
 
     logging.info("==== Completed stock data download process ====")
 

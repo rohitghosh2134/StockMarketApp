@@ -34,3 +34,9 @@
 2025-06-15 22:18:34,334 - INFO - Loaded 8212 existing symbols.
 2025-06-15 22:18:34,409 - INFO - No new symbols to append. CSV is up to date.
 2025-06-15 22:18:34,409 - INFO - ==== fetchEQList process completed ====
+2025-06-16 00:25:26,261 - INFO - ==== Starting fetchEQList process ====
+2025-06-16 00:25:26,261 - INFO - Using existing stockList_raw.csv.
+2025-06-16 00:25:26,601 - INFO - Successfully downloaded raw CSV data from Fyers.
+2025-06-16 00:25:26,719 - INFO - Loaded 8212 existing symbols.
+2025-06-16 00:25:26,771 - INFO - No new symbols to append. CSV is up to date.
+2025-06-16 00:25:26,771 - INFO - ==== fetchEQList process completed ====

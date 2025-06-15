@@ -1,0 +1,4 @@
+2025-06-15 13:34:53,950 - INFO - Using existing stockList_raw.csv.
+2025-06-15 13:34:54,450 - INFO - Successfully downloaded raw CSV data from Fyers.
+2025-06-15 13:34:54,522 - INFO - Loaded 8212 existing symbols.
+2025-06-15 13:34:54,610 - INFO - No new symbols to append. CSV is up to date.

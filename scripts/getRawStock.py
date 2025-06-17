@@ -165,6 +165,22 @@ def main():
 
     for symbol in symbols:
         logging.info(f"🔄 Processing symbol: {symbol}")
+
+        # ✅ NEW: Check if symbol already has data up to END_DATE
+        path = os.path.join(raw_data_dir, f"{symbol}.csv")
+        if os.path.exists(path):
+            try:
+                df_existing = pd.read_csv(path)
+                df_existing.columns = df_existing.columns.str.lower()
+                if "date" in df_existing.columns:
+                    df_existing["date"] = pd.to_datetime(df_existing["date"])
+                    last_date = df_existing["date"].max().date()
+                    if last_date >= END_DATE:
+                        logging.info(f"[{symbol}] ⏭️ Skipping: already up-to-date till {last_date}")
+                        continue
+            except Exception as e:
+                logging.warning(f"[{symbol}] ⚠️ Failed to check last date in file: {e}")
+
         failed = True
         for year in range(START_YEAR, END_YEAR + 1):
             start = date(year, 1, 1)

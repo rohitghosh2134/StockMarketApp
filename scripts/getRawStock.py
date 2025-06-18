@@ -12,7 +12,7 @@ import argparse
 
 # === Configurable Date Range ===
 START_YEAR, START_MONTH, START_DAY = 2000, 1, 1
-END_YEAR, END_MONTH, END_DAY = 2025, 6, 15
+END_YEAR, END_MONTH, END_DAY = 2025, 6, 13
 
 START_DATE = date(START_YEAR, START_MONTH, START_DAY)
 END_DATE = date(END_YEAR, END_MONTH, END_DAY)
@@ -130,7 +130,6 @@ def get_last_processed_symbol_from_log():
     except Exception as e:
         logging.warning(f"⚠️ Failed to read log file: {e}")
     return None
-
 def main():
     launch_log_viewer()
     logging.info("==== Starting getRawStock ====")
@@ -165,39 +164,42 @@ def main():
 
     for symbol in symbols:
         logging.info(f"🔄 Processing symbol: {symbol}")
-
-        # ✅ NEW: Check if symbol already has data up to END_DATE
         path = os.path.join(raw_data_dir, f"{symbol}.csv")
+
+        already_updated = False
+
         if os.path.exists(path):
             try:
                 df_existing = pd.read_csv(path)
                 df_existing.columns = df_existing.columns.str.lower()
                 if "date" in df_existing.columns:
-                    df_existing["date"] = pd.to_datetime(df_existing["date"])
+                    df_existing["date"] = pd.to_datetime(df_existing["date"], errors='coerce')
                     last_date = df_existing["date"].max().date()
+                    
+
                     if last_date >= END_DATE:
-                        logging.info(f"[{symbol}] ⏭️ Skipping: already up-to-date till {last_date}")
-                        continue
+                        logging.info(f"[{symbol}] ⏭️ Skipped: already up-to-date till {last_date}")
+                        already_updated = True
             except Exception as e:
-                logging.warning(f"[{symbol}] ⚠️ Failed to check last date in file: {e}")
+                logging.warning(f"[{symbol}] ⚠️ Could not check last_date: {e}")
 
-        failed = True
-        for year in range(START_YEAR, END_YEAR + 1):
-            start = date(year, 1, 1)
-            end = END_DATE if year == END_YEAR else date(year, 12, 31)
+        if not already_updated:
+            failed = True
+            for year in range(START_YEAR, END_YEAR + 1):
+                start = date(year, 1, 1)
+                end = END_DATE if year == END_YEAR else date(year, 12, 31)
 
-            if already_has_data(symbol, end):
-                logging.info(f"[{symbol}] ✅ Already up-to-date for {year}.")
-                continue
+                if already_has_data(symbol, end):
+                    logging.info(f"[{symbol}] ✅ Already up-to-date for {year}.")
+                    continue
 
-            if fetch_and_save_stock_data(symbol, start, end):
-                failed = False
-            else:
-                logging.warning(f"[{symbol}] ⚠️ Failed for year {year}")
+                if fetch_and_save_stock_data(symbol, start, end):
+                    failed = False
+                else:
+                    logging.warning(f"[{symbol}] ⚠️ Failed for year {year}")
 
-        if failed:
-            logging.warning(f"[{symbol}] ❌ Skipped due to failure in all years")
-
+            if failed:
+                logging.warning(f"[{symbol}] ❌ Skipped due to failure in all years")        
     logging.info("✅✅✅ Stock data fetch complete.")
     terminate_log_viewer()
 

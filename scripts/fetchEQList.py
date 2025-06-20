@@ -5,8 +5,12 @@ import csv
 from io import StringIO
 import logging
 
+# === Setup Base Directory ===
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+
 # === Setup Logging ===
-log_dir = "logs"
+log_dir = os.path.join(BASE_DIR, "logs")
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, "fetchEQList.log")
 
@@ -18,11 +22,12 @@ logging.basicConfig(
 )
 
 # === Config ===
-folder_path = "data/stockList"
+folder_path = os.path.join(BASE_DIR, "data", "stockList")
+os.makedirs(folder_path, exist_ok=True)  # ensure folder exists
 file_path = os.path.join(folder_path, "stockList_raw.csv")
 url = "https://public.fyers.in/sym_details/NSE_CM.csv"
-
 # === Column names ===
+
 column_names = [
     "fytoken", "symbol_details", "exchange_instrument_type", "minimum_lot_size",
     "tick_size", "isin", "trading_session", "last_update_date", "expiry_date",

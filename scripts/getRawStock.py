@@ -18,9 +18,10 @@ START_DATE = date(START_YEAR, START_MONTH, START_DAY)
 END_DATE = date(END_YEAR, END_MONTH, END_DAY)
 
 # === File and directory paths ===
-stock_list_path = os.path.join("data", "stockList", "stockList_clean.csv")
-raw_data_dir = os.path.join("data", "rawData")
-log_dir = os.path.join("logs")
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+stock_list_path = os.path.join(BASE_DIR, "data", "stockList", "stockList_clean.csv")
+raw_data_dir = os.path.join(BASE_DIR, "data", "rawData")
+log_dir = os.path.join(BASE_DIR, "logs")
 log_file = os.path.join(log_dir, "getRawStock.log")
 
 # === Ensure required directories exist ===

@@ -1,48 +1,6 @@
-2025-06-15 13:44:14,273 - INFO - ==== Starting fetchEQList process ====
-2025-06-15 13:44:14,273 - INFO - Created stockList_raw.csv with headers.
-2025-06-15 13:44:14,664 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-15 13:44:14,676 - INFO - Loaded 0 existing symbols.
-2025-06-15 13:44:15,413 - INFO - Appended 8212 new symbols to stockList_raw.csv.
-2025-06-15 13:44:15,413 - INFO - ==== fetchEQList process completed ====
-2025-06-15 22:13:19,908 - INFO - ==== Starting fetchEQList process ====
-2025-06-15 22:13:19,908 - INFO - Using existing stockList_raw.csv.
-2025-06-15 22:13:20,301 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-15 22:13:20,371 - INFO - Loaded 8212 existing symbols.
-2025-06-15 22:13:20,441 - INFO - No new symbols to append. CSV is up to date.
-2025-06-15 22:13:20,441 - INFO - ==== fetchEQList process completed ====
-2025-06-15 22:14:00,407 - INFO - ==== Starting fetchEQList process ====
-2025-06-15 22:14:00,407 - INFO - Using existing stockList_raw.csv.
-2025-06-15 22:14:00,741 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-15 22:14:00,832 - INFO - Loaded 8212 existing symbols.
-2025-06-15 22:14:00,913 - INFO - No new symbols to append. CSV is up to date.
-2025-06-15 22:14:00,913 - INFO - ==== fetchEQList process completed ====
-2025-06-15 22:16:14,848 - INFO - ==== Starting fetchEQList process ====
-2025-06-15 22:16:14,848 - INFO - Using existing stockList_raw.csv.
-2025-06-15 22:16:15,155 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-15 22:16:15,231 - INFO - Loaded 8212 existing symbols.
-2025-06-15 22:16:15,302 - INFO - No new symbols to append. CSV is up to date.
-2025-06-15 22:16:15,302 - INFO - ==== fetchEQList process completed ====
-2025-06-15 22:17:39,416 - INFO - ==== Starting fetchEQList process ====
-2025-06-15 22:17:39,416 - INFO - Using existing stockList_raw.csv.
-2025-06-15 22:17:39,752 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-15 22:17:39,823 - INFO - Loaded 8212 existing symbols.
-2025-06-15 22:17:39,898 - INFO - No new symbols to append. CSV is up to date.
-2025-06-15 22:17:39,898 - INFO - ==== fetchEQList process completed ====
-2025-06-15 22:18:33,879 - INFO - ==== Starting fetchEQList process ====
-2025-06-15 22:18:33,879 - INFO - Using existing stockList_raw.csv.
-2025-06-15 22:18:34,265 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-15 22:18:34,334 - INFO - Loaded 8212 existing symbols.
-2025-06-15 22:18:34,409 - INFO - No new symbols to append. CSV is up to date.
-2025-06-15 22:18:34,409 - INFO - ==== fetchEQList process completed ====
-2025-06-16 00:25:26,261 - INFO - ==== Starting fetchEQList process ====
-2025-06-16 00:25:26,261 - INFO - Using existing stockList_raw.csv.
-2025-06-16 00:25:26,601 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-16 00:25:26,719 - INFO - Loaded 8212 existing symbols.
-2025-06-16 00:25:26,771 - INFO - No new symbols to append. CSV is up to date.
-2025-06-16 00:25:26,771 - INFO - ==== fetchEQList process completed ====
-2025-06-19 09:55:53,363 - INFO - ==== Starting fetchEQList process ====
-2025-06-19 09:55:53,364 - INFO - Using existing stockList_raw.csv.
-2025-06-19 09:55:53,683 - INFO - Successfully downloaded raw CSV data from Fyers.
-2025-06-19 09:55:53,818 - INFO - Loaded 8212 existing symbols.
-2025-06-19 09:55:53,974 - INFO - Appended 122 new symbols to stockList_raw.csv.
-2025-06-19 09:55:53,974 - INFO - ==== fetchEQList process completed ====
+2025-06-20 19:18:24,985 - INFO - ==== Starting fetchEQList process ====
+2025-06-20 19:18:24,986 - INFO - Using existing stockList_raw.csv.
+2025-06-20 19:18:25,316 - INFO - Successfully downloaded raw CSV data from Fyers.
+2025-06-20 19:18:25,376 - INFO - Loaded 8355 existing symbols.
+2025-06-20 19:18:25,414 - INFO - No new symbols to append. CSV is up to date.
+2025-06-20 19:18:25,414 - INFO - ==== fetchEQList process completed ====

@@ -1,24 +1,6 @@
-2025-06-15 13:44:27,761 - INFO - ==== Starting symbol cleaning process ====
-2025-06-15 13:44:27,798 - INFO - Loaded file: data/stockList/stockList_raw.csv with 8212 rows.
-2025-06-15 13:44:27,806 - INFO - Filtered 2065 rows matching NSE EQ pattern.
-2025-06-15 13:44:27,808 - INFO - Extracted 2065 unique underlying symbols.
-2025-06-15 13:44:27,810 - INFO - Saved cleaned list to: data/stockList/stockList_clean.csv
-2025-06-15 13:44:27,810 - INFO - ==== Symbol cleaning process completed ====
-2025-06-15 13:48:05,024 - INFO - ==== Starting symbol cleaning process ====
-2025-06-15 13:48:05,065 - INFO - Loaded file: data/stockList/stockList_raw.csv with 8212 rows.
-2025-06-15 13:48:05,073 - INFO - Filtered 2065 rows matching NSE EQ pattern.
-2025-06-15 13:48:05,076 - INFO - Extracted 2065 unique underlying symbols, sorted alphabetically.
-2025-06-15 13:48:05,080 - INFO - Saved cleaned list to: data/stockList/stockList_clean.csv
-2025-06-15 13:48:05,080 - INFO - ==== Symbol cleaning process completed ====
-2025-06-16 00:26:55,713 - INFO - ==== Starting symbol cleaning process ====
-2025-06-16 00:26:55,760 - INFO - Loaded file: data/stockList/stockList_raw.csv with 8212 rows.
-2025-06-16 00:26:55,770 - INFO - Filtered 2065 rows matching NSE EQ pattern.
-2025-06-16 00:26:55,774 - INFO - Extracted 2065 unique underlying symbols, sorted alphabetically.
-2025-06-16 00:26:55,778 - INFO - Saved cleaned list to: data/stockList/stockList_clean.csv
-2025-06-16 00:26:55,778 - INFO - ==== Symbol cleaning process completed ====
-2025-06-19 09:56:01,174 - INFO - ==== Starting symbol cleaning process ====
-2025-06-19 09:56:01,346 - INFO - Loaded file: data/stockList/stockList_raw.csv with 8334 rows.
-2025-06-19 09:56:01,375 - INFO - Filtered 2098 rows matching NSE EQ pattern.
-2025-06-19 09:56:01,393 - INFO - Extracted 2098 unique underlying symbols, sorted alphabetically.
-2025-06-19 09:56:01,407 - INFO - Saved cleaned list to: data/stockList/stockList_clean.csv
-2025-06-19 09:56:01,407 - INFO - ==== Symbol cleaning process completed ====
+2025-06-20 19:18:48,963 - INFO - ==== Starting symbol cleaning process ====
+2025-06-20 19:18:49,004 - INFO - Loaded file: /home/ghostkiller1403/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8355 rows.
+2025-06-20 19:18:49,012 - INFO - Filtered 2100 rows matching NSE EQ pattern.
+2025-06-20 19:18:49,016 - INFO - Extracted 2100 unique underlying symbols, sorted alphabetically.
+2025-06-20 19:18:49,019 - INFO - Saved cleaned list to: /home/ghostkiller1403/Coding/StockMarketApp/data/stockList/stockList_clean.csv
+2025-06-20 19:18:49,019 - INFO - ==== Symbol cleaning process completed ====

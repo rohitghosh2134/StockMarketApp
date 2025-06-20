@@ -3,7 +3,12 @@ import pandas as pd
 import logging
 
 # === Setup Logging ===
-log_dir = "logs"
+
+# Get base directory (folder containing this script)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+
+log_dir = os.path.join(BASE_DIR, "logs")
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, "cleanEQList.log")
 
@@ -15,8 +20,8 @@ logging.basicConfig(
 )
 
 # === Configurations ===
-file_path = "data/stockList/stockList_raw.csv"
-output_path = "data/stockList/stockList_clean.csv"
+file_path = os.path.join(BASE_DIR, "data", "stockList", "stockList_raw.csv")
+output_path = os.path.join(BASE_DIR, "data", "stockList", "stockList_clean.csv")
 
 def main():
     logging.info("==== Starting symbol cleaning process ====")
@@ -72,3 +77,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

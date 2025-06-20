@@ -6,10 +6,11 @@ import time
 import subprocess
 
 # === Constants ===
-LOG_FILE = os.path.abspath(os.path.join("logs", "getRawStock.log"))
-SCRIPT_PATH = os.path.abspath(os.path.join("scripts", "getRawStock.py"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+LOG_FILE = os.path.abspath(os.path.join(BASE_DIR,"logs", "getRawStock.log"))
+SCRIPT_PATH = os.path.abspath(os.path.join(BASE_DIR,"scripts", "getRawStock.py"))
 TIMEOUT_SECONDS = 60  # Restart if no log update within this time
-AUTO_RESUME = False  # Set True to continue from last processed stock
+AUTO_RESUME = True  # Set True to continue from last processed stock
 
 def get_last_modified_time(path):
     try:

@@ -6,7 +6,7 @@ set -e
 # Move to the script's directory (assumes script is in repo root)
 cd "$(dirname "$0")"
 
-# Check if current directory is a Git repository
+# Ensure it's a Git repository
 if ! git rev-parse --git-dir > /dev/null 2>&1; then
     echo "❌ Error: This is not a Git repository."
     exit 1
@@ -19,18 +19,17 @@ if [[ -n $(git status --porcelain) ]]; then
     # Prompt for commit message
     read -rp "Enter commit message (leave blank to use timestamp): " user_msg
 
-    # Use current timestamp if message is empty
+    # Use timestamp if no message provided
     if [[ -z "$user_msg" ]]; then
         user_msg="Auto-commit: $(date "+%Y-%m-%d %H:%M:%S")"
     fi
 
-    # Stage all changes
+    # Stage and commit
     git add .
-
-    # Commit with user or timestamp message
     git commit -m "$user_msg"
 
-    # Optional: push to remote branch (adjust branch name as needed)
+    # Push to main branch (uses stored credentials)
+    echo "🚀 Pushing to main branch..."
     git push origin main
 
     echo "✅ Changes committed and pushed with message: \"$user_msg\""

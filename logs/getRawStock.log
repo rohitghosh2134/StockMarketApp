@@ -5489,3 +5489,774 @@
 2025-06-20 19:34:01,465 - INFO - 🔄 Processing symbol: ZYDUSWELL
 2025-06-20 19:34:01,479 - INFO - [ZYDUSWELL] ⏭️ Skipped: already up-to-date till 2025-06-13
 2025-06-20 19:34:01,479 - INFO - ✅✅✅ Stock data fetch complete.
+2025-06-24 18:07:41,154 - INFO - \U0001f4df Log viewer terminal launched.
+2025-06-24 18:07:41,154 - INFO - ==== Starting getRawStock ====
+2025-06-24 18:07:41,168 - INFO - \u2705 Loaded 2109 symbols.
+2025-06-24 18:07:41,168 - INFO - \U0001f504 Processing symbol: 20MICRONS
+2025-06-24 18:07:41,188 - INFO - [20MICRONS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,188 - INFO - \U0001f504 Processing symbol: 21STCENMGM
+2025-06-24 18:07:41,204 - INFO - [21STCENMGM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,204 - INFO - \U0001f504 Processing symbol: 360ONE
+2025-06-24 18:07:41,217 - INFO - [360ONE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,217 - INFO - \U0001f504 Processing symbol: 3IINFOLTD
+2025-06-24 18:07:41,230 - INFO - [3IINFOLTD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,231 - INFO - \U0001f504 Processing symbol: 3MINDIA
+2025-06-24 18:07:41,253 - INFO - [3MINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,253 - INFO - \U0001f504 Processing symbol: 3PLAND
+2025-06-24 18:07:41,274 - INFO - [3PLAND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,274 - INFO - \U0001f504 Processing symbol: 5PAISA
+2025-06-24 18:07:41,290 - INFO - [5PAISA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,290 - INFO - \U0001f504 Processing symbol: 63MOONS
+2025-06-24 18:07:41,311 - INFO - [63MOONS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,312 - INFO - \U0001f504 Processing symbol: AAATECH
+2025-06-24 18:07:41,324 - INFO - [AAATECH] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,324 - INFO - \U0001f504 Processing symbol: AADHARHFC
+2025-06-24 18:07:41,336 - INFO - [AADHARHFC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,336 - INFO - \U0001f504 Processing symbol: AAKASH
+2025-06-24 18:07:41,350 - INFO - [AAKASH] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,350 - INFO - \U0001f504 Processing symbol: AARON
+2025-06-24 18:07:41,367 - INFO - [AARON] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,368 - INFO - \U0001f504 Processing symbol: AARTECH
+2025-06-24 18:07:41,387 - INFO - [AARTECH] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,387 - INFO - \U0001f504 Processing symbol: AARTIDRUGS
+2025-06-24 18:07:41,407 - INFO - [AARTIDRUGS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,407 - INFO - \U0001f504 Processing symbol: AARTIIND
+2025-06-24 18:07:41,427 - INFO - [AARTIIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,428 - INFO - \U0001f504 Processing symbol: AARTIPHARM
+2025-06-24 18:07:41,441 - INFO - [AARTIPHARM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,441 - INFO - \U0001f504 Processing symbol: AARVI
+2025-06-24 18:07:41,456 - INFO - [AARVI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,456 - INFO - \U0001f504 Processing symbol: AAVAS
+2025-06-24 18:07:41,468 - INFO - [AAVAS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,468 - INFO - \U0001f504 Processing symbol: ABAN
+2025-06-24 18:07:41,486 - INFO - [ABAN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,487 - INFO - \U0001f504 Processing symbol: ABB
+2025-06-24 18:07:41,507 - INFO - [ABB] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,508 - INFO - \U0001f504 Processing symbol: ABBOTINDIA
+2025-06-24 18:07:41,540 - INFO - [ABBOTINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,540 - INFO - \U0001f504 Processing symbol: ABCAPITAL
+2025-06-24 18:07:41,559 - INFO - [ABCAPITAL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,559 - INFO - \U0001f504 Processing symbol: ABDL
+2025-06-24 18:07:41,572 - INFO - [ABDL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,572 - INFO - \U0001f504 Processing symbol: ABFRL
+2025-06-24 18:07:41,592 - INFO - [ABFRL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,593 - INFO - \U0001f504 Processing symbol: ABGSEC
+2025-06-24 18:07:41,605 - INFO - [ABGSEC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,606 - INFO - \U0001f504 Processing symbol: ABMINTLLTD
+2025-06-24 18:07:41,618 - INFO - [ABMINTLLTD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,618 - INFO - \U0001f504 Processing symbol: ABREL
+2025-06-24 18:07:41,641 - INFO - [ABREL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,641 - INFO - \U0001f504 Processing symbol: ABSLAMC
+2025-06-24 18:07:41,655 - INFO - [ABSLAMC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,655 - INFO - \U0001f504 Processing symbol: ABSLBANETF
+2025-06-24 18:07:41,675 - INFO - [ABSLBANETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,675 - INFO - \U0001f504 Processing symbol: ABSLLIQUID
+2025-06-24 18:07:41,687 - INFO - [ABSLLIQUID] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,687 - INFO - \U0001f504 Processing symbol: ABSLNN50ET
+2025-06-24 18:07:41,701 - INFO - [ABSLNN50ET] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,701 - INFO - \U0001f504 Processing symbol: ABSLPSE
+2025-06-24 18:07:41,715 - INFO - [ABSLPSE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,715 - INFO - \U0001f504 Processing symbol: ACC
+2025-06-24 18:07:41,736 - INFO - [ACC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,737 - INFO - \U0001f504 Processing symbol: ACCELYA
+2025-06-24 18:07:41,757 - INFO - [ACCELYA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,757 - INFO - \U0001f504 Processing symbol: ACCURACY
+2025-06-24 18:07:41,772 - INFO - [ACCURACY] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,772 - INFO - \U0001f504 Processing symbol: ACE
+2025-06-24 18:07:41,795 - INFO - [ACE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,795 - INFO - \U0001f504 Processing symbol: ACEINTEG
+2025-06-24 18:07:41,807 - INFO - [ACEINTEG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,807 - INFO - \U0001f504 Processing symbol: ACI
+2025-06-24 18:07:41,817 - INFO - [ACI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,817 - INFO - \U0001f504 Processing symbol: ACL
+2025-06-24 18:07:41,827 - INFO - [ACL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,827 - INFO - \U0001f504 Processing symbol: ACLGATI
+2025-06-24 18:07:41,843 - INFO - [ACLGATI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,843 - INFO - \U0001f504 Processing symbol: ACMESOLAR
+2025-06-24 18:07:41,852 - INFO - [ACMESOLAR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,852 - INFO - \U0001f504 Processing symbol: ACUTAAS
+2025-06-24 18:07:41,865 - INFO - [ACUTAAS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,865 - INFO - \U0001f504 Processing symbol: ADANIENSOL
+2025-06-24 18:07:41,880 - INFO - [ADANIENSOL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,880 - INFO - \U0001f504 Processing symbol: ADANIENT
+2025-06-24 18:07:41,898 - INFO - [ADANIENT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,898 - INFO - \U0001f504 Processing symbol: ADANIGREEN
+2025-06-24 18:07:41,917 - INFO - [ADANIGREEN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,918 - INFO - \U0001f504 Processing symbol: ADANIPORTS
+2025-06-24 18:07:41,943 - INFO - [ADANIPORTS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,944 - INFO - \U0001f504 Processing symbol: ADANIPOWER
+2025-06-24 18:07:41,965 - INFO - [ADANIPOWER] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:41,965 - INFO - \U0001f504 Processing symbol: ADFFOODS
+2025-06-24 18:07:42,018 - INFO - [ADFFOODS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,018 - INFO - \U0001f504 Processing symbol: ADOR
+2025-06-24 18:07:42,037 - INFO - [ADOR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,037 - INFO - \U0001f504 Processing symbol: ADROITINFO
+2025-06-24 18:07:42,067 - INFO - [ADROITINFO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,067 - INFO - \U0001f504 Processing symbol: ADSL
+2025-06-24 18:07:42,154 - INFO - [ADSL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,154 - INFO - \U0001f504 Processing symbol: ADVANIHOTR
+2025-06-24 18:07:42,188 - INFO - [ADVANIHOTR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,189 - INFO - \U0001f504 Processing symbol: ADVENZYMES
+2025-06-24 18:07:42,210 - INFO - [ADVENZYMES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,211 - INFO - \U0001f504 Processing symbol: AEGISLOG
+2025-06-24 18:07:42,233 - INFO - [AEGISLOG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,234 - INFO - \U0001f504 Processing symbol: AEGISVOPAK
+2025-06-24 18:07:42,245 - INFO - [AEGISVOPAK] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,245 - INFO - \U0001f504 Processing symbol: AEROFLEX
+2025-06-24 18:07:42,267 - INFO - [AEROFLEX] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,267 - INFO - \U0001f504 Processing symbol: AETHER
+2025-06-24 18:07:42,279 - INFO - [AETHER] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,279 - INFO - \U0001f504 Processing symbol: AFCONS
+2025-06-24 18:07:42,287 - INFO - [AFCONS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,287 - INFO - \U0001f504 Processing symbol: AFFLE
+2025-06-24 18:07:42,300 - INFO - [AFFLE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,300 - INFO - \U0001f504 Processing symbol: AFFORDABLE
+2025-06-24 18:07:42,314 - INFO - [AFFORDABLE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,314 - INFO - \U0001f504 Processing symbol: AFIL
+2025-06-24 18:07:42,340 - INFO - [AFIL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,340 - INFO - \U0001f504 Processing symbol: AFSL
+2025-06-24 18:07:42,359 - INFO - [AFSL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,359 - INFO - \U0001f504 Processing symbol: AGARIND
+2025-06-24 18:07:42,382 - INFO - [AGARIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,383 - INFO - \U0001f504 Processing symbol: AGARWALEYE
+2025-06-24 18:07:42,392 - INFO - [AGARWALEYE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,392 - INFO - \U0001f504 Processing symbol: AGI
+2025-06-24 18:07:42,411 - INFO - [AGI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,411 - INFO - \U0001f504 Processing symbol: AGIIL
+2025-06-24 18:07:42,421 - INFO - [AGIIL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,421 - INFO - \U0001f504 Processing symbol: AGRITECH
+2025-06-24 18:07:42,432 - INFO - [AGRITECH] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,432 - INFO - \U0001f504 Processing symbol: AGROPHOS
+2025-06-24 18:07:42,449 - INFO - [AGROPHOS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,449 - INFO - \U0001f504 Processing symbol: AHLADA
+2025-06-24 18:07:42,460 - INFO - [AHLADA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,460 - INFO - \U0001f504 Processing symbol: AHLEAST
+2025-06-24 18:07:42,474 - INFO - [AHLEAST] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,474 - INFO - \U0001f504 Processing symbol: AHLUCONT
+2025-06-24 18:07:42,489 - INFO - [AHLUCONT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,489 - INFO - \U0001f504 Processing symbol: AIAENG
+2025-06-24 18:07:42,507 - INFO - [AIAENG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,507 - INFO - \U0001f504 Processing symbol: AIIL
+2025-06-24 18:07:42,517 - INFO - [AIIL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,517 - INFO - \U0001f504 Processing symbol: AIRAN
+2025-06-24 18:07:42,527 - INFO - [AIRAN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,527 - INFO - \U0001f504 Processing symbol: AIROLAM
+2025-06-24 18:07:42,539 - INFO - [AIROLAM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,539 - INFO - \U0001f504 Processing symbol: AJANTPHARM
+2025-06-24 18:07:42,557 - INFO - [AJANTPHARM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,557 - INFO - \U0001f504 Processing symbol: AJAXENGG
+2025-06-24 18:07:42,567 - INFO - [AJAXENGG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,567 - INFO - \U0001f504 Processing symbol: AJMERA
+2025-06-24 18:07:42,588 - INFO - [AJMERA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,588 - INFO - \U0001f504 Processing symbol: AJOONI
+2025-06-24 18:07:42,601 - INFO - [AJOONI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,601 - INFO - \U0001f504 Processing symbol: AKASH
+2025-06-24 18:07:42,610 - INFO - [AKASH] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,610 - INFO - \U0001f504 Processing symbol: AKG
+2025-06-24 18:07:42,631 - INFO - [AKG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,631 - INFO - \U0001f504 Processing symbol: AKSHARCHEM
+2025-06-24 18:07:42,648 - INFO - [AKSHARCHEM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:42,648 - INFO - \U0001f504 Processing symbol: AKSHOPTFBR
+2025-06-24 18:07:42,676 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2000.
+2025-06-24 18:07:42,686 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2001.
+2025-06-24 18:07:42,696 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2002.
+2025-06-24 18:07:42,706 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2003.
+2025-06-24 18:07:42,715 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2004.
+2025-06-24 18:07:42,724 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2005.
+2025-06-24 18:07:42,734 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2006.
+2025-06-24 18:07:42,743 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2007.
+2025-06-24 18:07:42,753 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2008.
+2025-06-24 18:07:42,763 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2009.
+2025-06-24 18:07:42,776 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2010.
+2025-06-24 18:07:42,787 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2011.
+2025-06-24 18:07:42,796 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2012.
+2025-06-24 18:07:42,805 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2013.
+2025-06-24 18:07:42,814 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2014.
+2025-06-24 18:07:42,823 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2015.
+2025-06-24 18:07:42,832 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2016.
+2025-06-24 18:07:42,841 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2017.
+2025-06-24 18:07:42,850 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2018.
+2025-06-24 18:07:42,860 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2019.
+2025-06-24 18:07:42,869 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2020.
+2025-06-24 18:07:42,878 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2021.
+2025-06-24 18:07:42,887 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2022.
+2025-06-24 18:07:42,898 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2023.
+2025-06-24 18:07:42,907 - INFO - [AKSHOPTFBR] \u2705 Already up-to-date for 2024.
+2025-06-24 18:07:42,916 - INFO - [AKSHOPTFBR] Fetching data from 2025-01-01 to 2025-06-13
+2025-06-24 18:07:49,891 - INFO - [AKSHOPTFBR] No new rows to append.
+2025-06-24 18:07:49,891 - INFO - \U0001f504 Processing symbol: AKUMS
+2025-06-24 18:07:49,911 - INFO - [AKUMS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:49,911 - INFO - \U0001f504 Processing symbol: AKZOINDIA
+2025-06-24 18:07:49,930 - INFO - [AKZOINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:49,930 - INFO - \U0001f504 Processing symbol: ALANKIT
+2025-06-24 18:07:49,945 - INFO - [ALANKIT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:49,945 - INFO - \U0001f504 Processing symbol: ALBERTDAVD
+2025-06-24 18:07:49,958 - INFO - [ALBERTDAVD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:49,958 - INFO - \U0001f504 Processing symbol: ALEMBICLTD
+2025-06-24 18:07:49,973 - INFO - [ALEMBICLTD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:49,973 - INFO - \U0001f504 Processing symbol: ALICON
+2025-06-24 18:07:49,987 - INFO - [ALICON] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:49,987 - INFO - \U0001f504 Processing symbol: ALIVUS
+2025-06-24 18:07:49,999 - INFO - [ALIVUS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,000 - INFO - \U0001f504 Processing symbol: ALKALI
+2025-06-24 18:07:50,024 - INFO - [ALKALI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,024 - INFO - \U0001f504 Processing symbol: ALKEM
+2025-06-24 18:07:50,038 - INFO - [ALKEM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,038 - INFO - \U0001f504 Processing symbol: ALKYLAMINE
+2025-06-24 18:07:50,055 - INFO - [ALKYLAMINE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,056 - INFO - \U0001f504 Processing symbol: ALLCARGO
+2025-06-24 18:07:50,078 - INFO - [ALLCARGO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,078 - INFO - \U0001f504 Processing symbol: ALLDIGI
+2025-06-24 18:07:50,092 - INFO - [ALLDIGI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,092 - INFO - \U0001f504 Processing symbol: ALMONDZ
+2025-06-24 18:07:50,112 - INFO - [ALMONDZ] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,112 - INFO - \U0001f504 Processing symbol: ALOKINDS
+2025-06-24 18:07:50,129 - INFO - [ALOKINDS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,129 - INFO - \U0001f504 Processing symbol: ALPA
+2025-06-24 18:07:50,169 - INFO - [ALPA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,169 - INFO - \U0001f504 Processing symbol: ALPHA
+2025-06-24 18:07:50,185 - INFO - [ALPHA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,185 - INFO - \U0001f504 Processing symbol: ALPHAETF
+2025-06-24 18:07:50,200 - INFO - [ALPHAETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,200 - INFO - \U0001f504 Processing symbol: ALPHAGEO
+2025-06-24 18:07:50,221 - INFO - [ALPHAGEO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,221 - INFO - \U0001f504 Processing symbol: ALPL30IETF
+2025-06-24 18:07:50,234 - INFO - [ALPL30IETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,234 - INFO - \U0001f504 Processing symbol: AMBER
+2025-06-24 18:07:50,254 - INFO - [AMBER] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,254 - INFO - \U0001f504 Processing symbol: AMBICAAGAR
+2025-06-24 18:07:50,270 - INFO - [AMBICAAGAR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,270 - INFO - \U0001f504 Processing symbol: AMBIKCO
+2025-06-24 18:07:50,291 - INFO - [AMBIKCO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,291 - INFO - \U0001f504 Processing symbol: AMBUJACEM
+2025-06-24 18:07:50,316 - INFO - [AMBUJACEM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,316 - INFO - \U0001f504 Processing symbol: AMDIND
+2025-06-24 18:07:50,336 - INFO - [AMDIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,336 - INFO - \U0001f504 Processing symbol: AMJLAND
+2025-06-24 18:07:50,355 - INFO - [AMJLAND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,355 - INFO - \U0001f504 Processing symbol: AMNPLST
+2025-06-24 18:07:50,367 - INFO - [AMNPLST] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,367 - INFO - \U0001f504 Processing symbol: AMRUTANJAN
+2025-06-24 18:07:50,392 - INFO - [AMRUTANJAN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,392 - INFO - \U0001f504 Processing symbol: ANANDRATHI
+2025-06-24 18:07:50,406 - INFO - [ANANDRATHI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,406 - INFO - \U0001f504 Processing symbol: ANANTRAJ
+2025-06-24 18:07:50,425 - INFO - [ANANTRAJ] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,425 - INFO - \U0001f504 Processing symbol: ANDHRAPAP
+2025-06-24 18:07:50,440 - INFO - [ANDHRAPAP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,440 - INFO - \U0001f504 Processing symbol: ANDHRSUGAR
+2025-06-24 18:07:50,457 - INFO - [ANDHRSUGAR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,457 - INFO - \U0001f504 Processing symbol: ANGELONE
+2025-06-24 18:07:50,468 - INFO - [ANGELONE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:50,468 - INFO - \U0001f504 Processing symbol: ANIKINDS
+2025-06-24 18:07:50,491 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2000.
+2025-06-24 18:07:50,497 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2001.
+2025-06-24 18:07:50,503 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2002.
+2025-06-24 18:07:50,509 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2003.
+2025-06-24 18:07:50,515 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2004.
+2025-06-24 18:07:50,521 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2005.
+2025-06-24 18:07:50,527 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2006.
+2025-06-24 18:07:50,533 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2007.
+2025-06-24 18:07:50,539 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2008.
+2025-06-24 18:07:50,545 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2009.
+2025-06-24 18:07:50,551 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2010.
+2025-06-24 18:07:50,557 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2011.
+2025-06-24 18:07:50,563 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2012.
+2025-06-24 18:07:50,568 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2013.
+2025-06-24 18:07:50,574 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2014.
+2025-06-24 18:07:50,580 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2015.
+2025-06-24 18:07:50,586 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2016.
+2025-06-24 18:07:50,592 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2017.
+2025-06-24 18:07:50,598 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2018.
+2025-06-24 18:07:50,604 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2019.
+2025-06-24 18:07:50,610 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2020.
+2025-06-24 18:07:50,616 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2021.
+2025-06-24 18:07:50,621 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2022.
+2025-06-24 18:07:50,627 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2023.
+2025-06-24 18:07:50,633 - INFO - [ANIKINDS] \u2705 Already up-to-date for 2024.
+2025-06-24 18:07:50,639 - INFO - [ANIKINDS] Fetching data from 2025-01-01 to 2025-06-13
+2025-06-24 18:07:55,779 - INFO - [ANIKINDS] No new rows to append.
+2025-06-24 18:07:55,780 - INFO - \U0001f504 Processing symbol: ANMOL
+2025-06-24 18:07:55,798 - INFO - [ANMOL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,798 - INFO - \U0001f504 Processing symbol: ANTGRAPHIC
+2025-06-24 18:07:55,821 - INFO - [ANTGRAPHIC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,821 - INFO - \U0001f504 Processing symbol: ANUHPHR
+2025-06-24 18:07:55,832 - INFO - [ANUHPHR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,832 - INFO - \U0001f504 Processing symbol: ANUP
+2025-06-24 18:07:55,844 - INFO - [ANUP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,844 - INFO - \U0001f504 Processing symbol: ANURAS
+2025-06-24 18:07:55,856 - INFO - [ANURAS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,856 - INFO - \U0001f504 Processing symbol: AONELIQUID
+2025-06-24 18:07:55,863 - INFO - [AONELIQUID] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,863 - INFO - \U0001f504 Processing symbol: AONENIFTY
+2025-06-24 18:07:55,869 - INFO - [AONENIFTY] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,869 - INFO - \U0001f504 Processing symbol: AONETOTAL
+2025-06-24 18:07:55,877 - INFO - [AONETOTAL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,877 - INFO - \U0001f504 Processing symbol: APARINDS
+2025-06-24 18:07:55,892 - INFO - [APARINDS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,892 - INFO - \U0001f504 Processing symbol: APCL
+2025-06-24 18:07:55,910 - INFO - [APCL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,910 - INFO - \U0001f504 Processing symbol: APCOTEXIND
+2025-06-24 18:07:55,930 - INFO - [APCOTEXIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,930 - INFO - \U0001f504 Processing symbol: APEX
+2025-06-24 18:07:55,948 - INFO - [APEX] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,948 - INFO - \U0001f504 Processing symbol: APLAPOLLO
+2025-06-24 18:07:55,974 - INFO - [APLAPOLLO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,975 - INFO - \U0001f504 Processing symbol: APLLTD
+2025-06-24 18:07:55,995 - INFO - [APLLTD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:55,995 - INFO - \U0001f504 Processing symbol: APOLLO
+2025-06-24 18:07:56,009 - INFO - [APOLLO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,009 - INFO - \U0001f504 Processing symbol: APOLLOHOSP
+2025-06-24 18:07:56,029 - INFO - [APOLLOHOSP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,029 - INFO - \U0001f504 Processing symbol: APOLLOPIPE
+2025-06-24 18:07:56,045 - INFO - [APOLLOPIPE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,045 - INFO - \U0001f504 Processing symbol: APOLLOTYRE
+2025-06-24 18:07:56,061 - INFO - [APOLLOTYRE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,062 - INFO - \U0001f504 Processing symbol: APOLSINHOT
+2025-06-24 18:07:56,080 - INFO - [APOLSINHOT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,080 - INFO - \U0001f504 Processing symbol: APTUS
+2025-06-24 18:07:56,091 - INFO - [APTUS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,092 - INFO - \U0001f504 Processing symbol: ARCHIDPLY
+2025-06-24 18:07:56,115 - INFO - [ARCHIDPLY] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,115 - INFO - \U0001f504 Processing symbol: ARCHIES
+2025-06-24 18:07:56,133 - INFO - [ARCHIES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,133 - INFO - \U0001f504 Processing symbol: ARE&M
+2025-06-24 18:07:56,156 - INFO - [ARE&M] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,157 - INFO - \U0001f504 Processing symbol: ARENTERP
+2025-06-24 18:07:56,175 - INFO - [ARENTERP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,175 - INFO - \U0001f504 Processing symbol: ARIES
+2025-06-24 18:07:56,195 - INFO - [ARIES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,195 - INFO - \U0001f504 Processing symbol: ARIHANTCAP
+2025-06-24 18:07:56,205 - INFO - [ARIHANTCAP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,206 - INFO - \U0001f504 Processing symbol: ARIHANTSUP
+2025-06-24 18:07:56,229 - INFO - [ARIHANTSUP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,229 - INFO - \U0001f504 Processing symbol: ARKADE
+2025-06-24 18:07:56,237 - INFO - [ARKADE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,237 - INFO - \U0001f504 Processing symbol: ARMANFIN
+2025-06-24 18:07:56,256 - INFO - [ARMANFIN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,256 - INFO - \U0001f504 Processing symbol: AROGRANITE
+2025-06-24 18:07:56,279 - INFO - [AROGRANITE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,279 - INFO - \U0001f504 Processing symbol: ARTEMISMED
+2025-06-24 18:07:56,291 - INFO - [ARTEMISMED] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,291 - INFO - \U0001f504 Processing symbol: ARTNIRMAN
+2025-06-24 18:07:56,300 - INFO - [ARTNIRMAN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,300 - INFO - \U0001f504 Processing symbol: ARVEE
+2025-06-24 18:07:56,308 - INFO - [ARVEE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,309 - INFO - \U0001f504 Processing symbol: ARVIND
+2025-06-24 18:07:56,328 - INFO - [ARVIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,328 - INFO - \U0001f504 Processing symbol: ARVINDFASN
+2025-06-24 18:07:56,343 - INFO - [ARVINDFASN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,343 - INFO - \U0001f504 Processing symbol: ARVSMART
+2025-06-24 18:07:56,360 - INFO - [ARVSMART] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,360 - INFO - \U0001f504 Processing symbol: ASAHIINDIA
+2025-06-24 18:07:56,381 - INFO - [ASAHIINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,381 - INFO - \U0001f504 Processing symbol: ASAL
+2025-06-24 18:07:56,399 - INFO - [ASAL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,399 - INFO - \U0001f504 Processing symbol: ASALCBR
+2025-06-24 18:07:56,416 - INFO - [ASALCBR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,416 - INFO - \U0001f504 Processing symbol: ASHAPURMIN
+2025-06-24 18:07:56,441 - INFO - [ASHAPURMIN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,441 - INFO - \U0001f504 Processing symbol: ASHIANA
+2025-06-24 18:07:56,461 - INFO - [ASHIANA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,461 - INFO - \U0001f504 Processing symbol: ASHOKA
+2025-06-24 18:07:56,480 - INFO - [ASHOKA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,480 - INFO - \U0001f504 Processing symbol: ASHOKAMET
+2025-06-24 18:07:56,494 - INFO - [ASHOKAMET] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,494 - INFO - \U0001f504 Processing symbol: ASHOKLEY
+2025-06-24 18:07:56,511 - INFO - [ASHOKLEY] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,512 - INFO - \U0001f504 Processing symbol: ASIANENE
+2025-06-24 18:07:56,524 - INFO - [ASIANENE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,524 - INFO - \U0001f504 Processing symbol: ASIANPAINT
+2025-06-24 18:07:56,544 - INFO - [ASIANPAINT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,544 - INFO - \U0001f504 Processing symbol: ASIANTILES
+2025-06-24 18:07:56,575 - INFO - [ASIANTILES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,575 - INFO - \U0001f504 Processing symbol: ASKAUTOLTD
+2025-06-24 18:07:56,590 - INFO - [ASKAUTOLTD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,592 - INFO - \U0001f504 Processing symbol: ASMS
+2025-06-24 18:07:56,601 - INFO - [ASMS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,601 - INFO - \U0001f504 Processing symbol: ASPINWALL
+2025-06-24 18:07:56,620 - INFO - [ASPINWALL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,620 - INFO - \U0001f504 Processing symbol: ASTEC
+2025-06-24 18:07:56,635 - INFO - [ASTEC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,635 - INFO - \U0001f504 Processing symbol: ASTERDM
+2025-06-24 18:07:56,654 - INFO - [ASTERDM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,655 - INFO - \U0001f504 Processing symbol: ASTRAL
+2025-06-24 18:07:56,671 - INFO - [ASTRAL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,671 - INFO - \U0001f504 Processing symbol: ASTRAMICRO
+2025-06-24 18:07:56,688 - INFO - [ASTRAMICRO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,688 - INFO - \U0001f504 Processing symbol: ASTRAZEN
+2025-06-24 18:07:56,707 - INFO - [ASTRAZEN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,707 - INFO - \U0001f504 Processing symbol: ATALREAL
+2025-06-24 18:07:56,720 - INFO - [ATALREAL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,720 - INFO - \U0001f504 Processing symbol: ATAM
+2025-06-24 18:07:56,731 - INFO - [ATAM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,732 - INFO - \U0001f504 Processing symbol: ATGL
+2025-06-24 18:07:56,746 - INFO - [ATGL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,746 - INFO - \U0001f504 Processing symbol: ATHERENERG
+2025-06-24 18:07:56,754 - INFO - [ATHERENERG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,754 - INFO - \U0001f504 Processing symbol: ATL
+2025-06-24 18:07:56,766 - INFO - [ATL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,766 - INFO - \U0001f504 Processing symbol: ATLANTAA
+2025-06-24 18:07:56,783 - INFO - [ATLANTAA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,783 - INFO - \U0001f504 Processing symbol: ATUL
+2025-06-24 18:07:56,803 - INFO - [ATUL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,803 - INFO - \U0001f504 Processing symbol: ATULAUTO
+2025-06-24 18:07:56,823 - INFO - [ATULAUTO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,823 - INFO - \U0001f504 Processing symbol: AUBANK
+2025-06-24 18:07:56,839 - INFO - [AUBANK] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,839 - INFO - \U0001f504 Processing symbol: AURIONPRO
+2025-06-24 18:07:56,861 - INFO - [AURIONPRO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,861 - INFO - \U0001f504 Processing symbol: AUROPHARMA
+2025-06-24 18:07:56,881 - INFO - [AUROPHARMA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,881 - INFO - \U0001f504 Processing symbol: AURUM
+2025-06-24 18:07:56,908 - INFO - [AURUM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,908 - INFO - \U0001f504 Processing symbol: AUSOMENT
+2025-06-24 18:07:56,926 - INFO - [AUSOMENT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,926 - INFO - \U0001f504 Processing symbol: AUTOAXLES
+2025-06-24 18:07:56,943 - INFO - [AUTOAXLES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,943 - INFO - \U0001f504 Processing symbol: AUTOBEES
+2025-06-24 18:07:56,960 - INFO - [AUTOBEES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,960 - INFO - \U0001f504 Processing symbol: AUTOIETF
+2025-06-24 18:07:56,971 - INFO - [AUTOIETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,971 - INFO - \U0001f504 Processing symbol: AUTOIND
+2025-06-24 18:07:56,989 - INFO - [AUTOIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:56,989 - INFO - \U0001f504 Processing symbol: AVADHSUGAR
+2025-06-24 18:07:57,003 - INFO - [AVADHSUGAR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,003 - INFO - \U0001f504 Processing symbol: AVALON
+2025-06-24 18:07:57,015 - INFO - [AVALON] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,016 - INFO - \U0001f504 Processing symbol: AVANTEL
+2025-06-24 18:07:57,024 - INFO - [AVANTEL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,025 - INFO - \U0001f504 Processing symbol: AVANTIFEED
+2025-06-24 18:07:57,059 - INFO - [AVANTIFEED] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,059 - INFO - \U0001f504 Processing symbol: AVG
+2025-06-24 18:07:57,071 - INFO - [AVG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,071 - INFO - \U0001f504 Processing symbol: AVL
+2025-06-24 18:07:57,085 - INFO - [AVL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,085 - INFO - \U0001f504 Processing symbol: AVROIND
+2025-06-24 18:07:57,095 - INFO - [AVROIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,095 - INFO - \U0001f504 Processing symbol: AVTNPL
+2025-06-24 18:07:57,113 - INFO - [AVTNPL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,113 - INFO - \U0001f504 Processing symbol: AWFIS
+2025-06-24 18:07:57,123 - INFO - [AWFIS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,123 - INFO - \U0001f504 Processing symbol: AWHCL
+2025-06-24 18:07:57,133 - INFO - [AWHCL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,133 - INFO - \U0001f504 Processing symbol: AWL
+2025-06-24 18:07:57,143 - INFO - [AWL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,143 - INFO - \U0001f504 Processing symbol: AXISBANK
+2025-06-24 18:07:57,162 - INFO - [AXISBANK] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,162 - INFO - \U0001f504 Processing symbol: AXISBNKETF
+2025-06-24 18:07:57,178 - INFO - [AXISBNKETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,178 - INFO - \U0001f504 Processing symbol: AXISBPSETF
+2025-06-24 18:07:57,188 - INFO - [AXISBPSETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,188 - INFO - \U0001f504 Processing symbol: AXISCETF
+2025-06-24 18:07:57,199 - INFO - [AXISCETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,199 - INFO - \U0001f504 Processing symbol: AXISGOLD
+2025-06-24 18:07:57,225 - INFO - [AXISGOLD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,225 - INFO - \U0001f504 Processing symbol: AXISHCETF
+2025-06-24 18:07:57,241 - INFO - [AXISHCETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,241 - INFO - \U0001f504 Processing symbol: AXISILVER
+2025-06-24 18:07:57,256 - INFO - [AXISILVER] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,256 - INFO - \U0001f504 Processing symbol: AXISNIFTY
+2025-06-24 18:07:57,270 - INFO - [AXISNIFTY] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,270 - INFO - \U0001f504 Processing symbol: AXISTECETF
+2025-06-24 18:07:57,289 - INFO - [AXISTECETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,289 - INFO - \U0001f504 Processing symbol: AXISVALUE
+2025-06-24 18:07:57,302 - INFO - [AXISVALUE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,302 - INFO - \U0001f504 Processing symbol: AXITA
+2025-06-24 18:07:57,313 - INFO - [AXITA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,313 - INFO - \U0001f504 Processing symbol: AXSENSEX
+2025-06-24 18:07:57,323 - INFO - [AXSENSEX] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,323 - INFO - \U0001f504 Processing symbol: AYMSYNTEX
+2025-06-24 18:07:57,342 - INFO - [AYMSYNTEX] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,342 - INFO - \U0001f504 Processing symbol: AZAD
+2025-06-24 18:07:57,352 - INFO - [AZAD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:07:57,352 - INFO - \U0001f504 Processing symbol: BAGFILMS
+2025-06-24 18:07:57,379 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2000.
+2025-06-24 18:07:57,389 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2001.
+2025-06-24 18:07:57,397 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2002.
+2025-06-24 18:07:57,405 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2003.
+2025-06-24 18:07:57,412 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2004.
+2025-06-24 18:07:57,421 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2005.
+2025-06-24 18:07:57,428 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2006.
+2025-06-24 18:07:57,435 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2007.
+2025-06-24 18:07:57,443 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2008.
+2025-06-24 18:07:57,450 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2009.
+2025-06-24 18:07:57,460 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2010.
+2025-06-24 18:07:57,468 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2011.
+2025-06-24 18:07:57,476 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2012.
+2025-06-24 18:07:57,485 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2013.
+2025-06-24 18:07:57,493 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2014.
+2025-06-24 18:07:57,501 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2015.
+2025-06-24 18:07:57,510 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2016.
+2025-06-24 18:07:57,519 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2017.
+2025-06-24 18:07:57,528 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2018.
+2025-06-24 18:07:57,536 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2019.
+2025-06-24 18:07:57,543 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2020.
+2025-06-24 18:07:57,552 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2021.
+2025-06-24 18:07:57,559 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2022.
+2025-06-24 18:07:57,567 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2023.
+2025-06-24 18:07:57,574 - INFO - [BAGFILMS] \u2705 Already up-to-date for 2024.
+2025-06-24 18:07:57,582 - INFO - [BAGFILMS] Fetching data from 2025-01-01 to 2025-06-13
+2025-06-24 18:08:03,121 - INFO - [BAGFILMS] No new rows to append.
+2025-06-24 18:08:03,121 - INFO - \U0001f504 Processing symbol: BAIDFIN
+2025-06-24 18:08:03,133 - INFO - [BAIDFIN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,133 - INFO - \U0001f504 Processing symbol: BAJAJ-AUTO
+2025-06-24 18:08:03,148 - INFO - [BAJAJ-AUTO] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,148 - INFO - \U0001f504 Processing symbol: BAJAJCON
+2025-06-24 18:08:03,166 - INFO - [BAJAJCON] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,166 - INFO - \U0001f504 Processing symbol: BAJAJELEC
+2025-06-24 18:08:03,188 - INFO - [BAJAJELEC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,188 - INFO - \U0001f504 Processing symbol: BAJAJFINSV
+2025-06-24 18:08:03,206 - INFO - [BAJAJFINSV] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,206 - INFO - \U0001f504 Processing symbol: BAJAJHCARE
+2025-06-24 18:08:03,217 - INFO - [BAJAJHCARE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,217 - INFO - \U0001f504 Processing symbol: BAJAJHFL
+2025-06-24 18:08:03,235 - INFO - [BAJAJHFL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,236 - INFO - \U0001f504 Processing symbol: BAJAJHIND
+2025-06-24 18:08:03,261 - INFO - [BAJAJHIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,261 - INFO - \U0001f504 Processing symbol: BAJAJHLDNG
+2025-06-24 18:08:03,279 - INFO - [BAJAJHLDNG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,279 - INFO - \U0001f504 Processing symbol: BAJAJINDEF
+2025-06-24 18:08:03,289 - INFO - [BAJAJINDEF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,290 - INFO - \U0001f504 Processing symbol: BAJEL
+2025-06-24 18:08:03,299 - INFO - [BAJEL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,299 - INFO - \U0001f504 Processing symbol: BAJFINANCE
+2025-06-24 18:08:03,318 - INFO - [BAJFINANCE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,318 - INFO - \U0001f504 Processing symbol: BALAJEE
+2025-06-24 18:08:03,334 - INFO - [BALAJEE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,334 - INFO - \U0001f504 Processing symbol: BALAMINES
+2025-06-24 18:08:03,365 - INFO - [BALAMINES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,365 - INFO - \U0001f504 Processing symbol: BALAXI
+2025-06-24 18:08:03,382 - INFO - [BALAXI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,382 - INFO - \U0001f504 Processing symbol: BALKRISHNA
+2025-06-24 18:08:03,399 - INFO - [BALKRISHNA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,399 - INFO - \U0001f504 Processing symbol: BALKRISIND
+2025-06-24 18:08:03,417 - INFO - [BALKRISIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,417 - INFO - \U0001f504 Processing symbol: BALMLAWRIE
+2025-06-24 18:08:03,437 - INFO - [BALMLAWRIE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,437 - INFO - \U0001f504 Processing symbol: BALPHARMA
+2025-06-24 18:08:03,454 - INFO - [BALPHARMA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,454 - INFO - \U0001f504 Processing symbol: BALRAMCHIN
+2025-06-24 18:08:03,474 - INFO - [BALRAMCHIN] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,474 - INFO - \U0001f504 Processing symbol: BALUFORGE
+2025-06-24 18:08:03,490 - INFO - [BALUFORGE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,490 - INFO - \U0001f504 Processing symbol: BANARBEADS
+2025-06-24 18:08:03,505 - INFO - [BANARBEADS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,505 - INFO - \U0001f504 Processing symbol: BANARISUG
+2025-06-24 18:08:03,526 - INFO - [BANARISUG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,526 - INFO - \U0001f504 Processing symbol: BANCOINDIA
+2025-06-24 18:08:03,544 - INFO - [BANCOINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,544 - INFO - \U0001f504 Processing symbol: BANDHANBNK
+2025-06-24 18:08:03,560 - INFO - [BANDHANBNK] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,560 - INFO - \U0001f504 Processing symbol: BANG
+2025-06-24 18:08:03,580 - INFO - [BANG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,580 - INFO - \U0001f504 Processing symbol: BANKA
+2025-06-24 18:08:03,601 - INFO - [BANKA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,601 - INFO - \U0001f504 Processing symbol: BANKBARODA
+2025-06-24 18:08:03,622 - INFO - [BANKBARODA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,622 - INFO - \U0001f504 Processing symbol: BANKBEES
+2025-06-24 18:08:03,654 - INFO - [BANKBEES] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,654 - INFO - \U0001f504 Processing symbol: BANKBETF
+2025-06-24 18:08:03,665 - INFO - [BANKBETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,665 - INFO - \U0001f504 Processing symbol: BANKETF
+2025-06-24 18:08:03,679 - INFO - [BANKETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,679 - INFO - \U0001f504 Processing symbol: BANKETFADD
+2025-06-24 18:08:03,694 - INFO - [BANKETFADD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,694 - INFO - \U0001f504 Processing symbol: BANKIETF
+2025-06-24 18:08:03,712 - INFO - [BANKIETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,712 - INFO - \U0001f504 Processing symbol: BANKINDIA
+2025-06-24 18:08:03,733 - INFO - [BANKINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,733 - INFO - \U0001f504 Processing symbol: BANKNIFTY1
+2025-06-24 18:08:03,752 - INFO - [BANKNIFTY1] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,753 - INFO - \U0001f504 Processing symbol: BANKPSU
+2025-06-24 18:08:03,763 - INFO - [BANKPSU] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,763 - INFO - \U0001f504 Processing symbol: BANSALWIRE
+2025-06-24 18:08:03,775 - INFO - [BANSALWIRE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,775 - INFO - \U0001f504 Processing symbol: BANSWRAS
+2025-06-24 18:08:03,793 - INFO - [BANSWRAS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,793 - INFO - \U0001f504 Processing symbol: BARBEQUE
+2025-06-24 18:08:03,805 - INFO - [BARBEQUE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,806 - INFO - \U0001f504 Processing symbol: BASF
+2025-06-24 18:08:03,825 - INFO - [BASF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,825 - INFO - \U0001f504 Processing symbol: BASML
+2025-06-24 18:08:03,847 - INFO - [BASML] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,847 - INFO - \U0001f504 Processing symbol: BATAINDIA
+2025-06-24 18:08:03,867 - INFO - [BATAINDIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,867 - INFO - \U0001f504 Processing symbol: BAYERCROP
+2025-06-24 18:08:03,894 - INFO - [BAYERCROP] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,894 - INFO - \U0001f504 Processing symbol: BBETF0432
+2025-06-24 18:08:03,909 - INFO - [BBETF0432] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,909 - INFO - \U0001f504 Processing symbol: BBL
+2025-06-24 18:08:03,936 - INFO - [BBL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,936 - INFO - \U0001f504 Processing symbol: BBNPNBETF
+2025-06-24 18:08:03,948 - INFO - [BBNPNBETF] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,949 - INFO - \U0001f504 Processing symbol: BBNPPGOLD
+2025-06-24 18:08:03,961 - INFO - [BBNPPGOLD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,962 - INFO - \U0001f504 Processing symbol: BBOX
+2025-06-24 18:08:03,983 - INFO - [BBOX] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:03,983 - INFO - \U0001f504 Processing symbol: BBTC
+2025-06-24 18:08:04,001 - INFO - [BBTC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,001 - INFO - \U0001f504 Processing symbol: BBTCL
+2025-06-24 18:08:04,014 - INFO - [BBTCL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,014 - INFO - \U0001f504 Processing symbol: BCLIND
+2025-06-24 18:08:04,030 - INFO - [BCLIND] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,030 - INFO - \U0001f504 Processing symbol: BCONCEPTS
+2025-06-24 18:08:04,053 - INFO - [BCONCEPTS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,053 - INFO - \U0001f504 Processing symbol: BDL
+2025-06-24 18:08:04,068 - INFO - [BDL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,068 - INFO - \U0001f504 Processing symbol: BEARDSELL
+2025-06-24 18:08:04,181 - INFO - [BEARDSELL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,181 - INFO - \U0001f504 Processing symbol: BECTORFOOD
+2025-06-24 18:08:04,194 - INFO - [BECTORFOOD] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,195 - INFO - \U0001f504 Processing symbol: BEDMUTHA
+2025-06-24 18:08:04,210 - INFO - [BEDMUTHA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,210 - INFO - \U0001f504 Processing symbol: BEL
+2025-06-24 18:08:04,225 - INFO - [BEL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,225 - INFO - \U0001f504 Processing symbol: BELRISE
+2025-06-24 18:08:04,233 - INFO - [BELRISE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,233 - INFO - \U0001f504 Processing symbol: BEML
+2025-06-24 18:08:04,248 - INFO - [BEML] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,248 - INFO - \U0001f504 Processing symbol: BEPL
+2025-06-24 18:08:04,268 - INFO - [BEPL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,268 - INFO - \U0001f504 Processing symbol: BERGEPAINT
+2025-06-24 18:08:04,287 - INFO - [BERGEPAINT] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:04,287 - INFO - \U0001f504 Processing symbol: BESTAGRO
+2025-06-24 18:08:04,287 - INFO - [BESTAGRO] Fetching data from 2000-01-01 to 2000-12-31
+2025-06-24 18:08:04,310 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,310 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2000
+2025-06-24 18:08:04,310 - INFO - [BESTAGRO] Fetching data from 2001-01-01 to 2001-12-31
+2025-06-24 18:08:04,324 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,324 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2001
+2025-06-24 18:08:04,324 - INFO - [BESTAGRO] Fetching data from 2002-01-01 to 2002-12-31
+2025-06-24 18:08:04,337 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,337 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2002
+2025-06-24 18:08:04,337 - INFO - [BESTAGRO] Fetching data from 2003-01-01 to 2003-12-31
+2025-06-24 18:08:04,351 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,351 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2003
+2025-06-24 18:08:04,351 - INFO - [BESTAGRO] Fetching data from 2004-01-01 to 2004-12-31
+2025-06-24 18:08:04,363 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,364 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2004
+2025-06-24 18:08:04,364 - INFO - [BESTAGRO] Fetching data from 2005-01-01 to 2005-12-31
+2025-06-24 18:08:04,376 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,376 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2005
+2025-06-24 18:08:04,376 - INFO - [BESTAGRO] Fetching data from 2006-01-01 to 2006-12-31
+2025-06-24 18:08:04,389 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,389 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2006
+2025-06-24 18:08:04,389 - INFO - [BESTAGRO] Fetching data from 2007-01-01 to 2007-12-31
+2025-06-24 18:08:04,402 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,402 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2007
+2025-06-24 18:08:04,402 - INFO - [BESTAGRO] Fetching data from 2008-01-01 to 2008-12-31
+2025-06-24 18:08:04,414 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,414 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2008
+2025-06-24 18:08:04,414 - INFO - [BESTAGRO] Fetching data from 2009-01-01 to 2009-12-31
+2025-06-24 18:08:04,427 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,427 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2009
+2025-06-24 18:08:04,427 - INFO - [BESTAGRO] Fetching data from 2010-01-01 to 2010-12-31
+2025-06-24 18:08:04,438 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,438 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2010
+2025-06-24 18:08:04,438 - INFO - [BESTAGRO] Fetching data from 2011-01-01 to 2011-12-31
+2025-06-24 18:08:04,449 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,449 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2011
+2025-06-24 18:08:04,450 - INFO - [BESTAGRO] Fetching data from 2012-01-01 to 2012-12-31
+2025-06-24 18:08:04,462 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,462 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2012
+2025-06-24 18:08:04,462 - INFO - [BESTAGRO] Fetching data from 2013-01-01 to 2013-12-31
+2025-06-24 18:08:04,474 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,474 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2013
+2025-06-24 18:08:04,474 - INFO - [BESTAGRO] Fetching data from 2014-01-01 to 2014-12-31
+2025-06-24 18:08:04,486 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,486 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2014
+2025-06-24 18:08:04,486 - INFO - [BESTAGRO] Fetching data from 2015-01-01 to 2015-12-31
+2025-06-24 18:08:04,498 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,498 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2015
+2025-06-24 18:08:04,498 - INFO - [BESTAGRO] Fetching data from 2016-01-01 to 2016-12-31
+2025-06-24 18:08:04,511 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,511 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2016
+2025-06-24 18:08:04,511 - INFO - [BESTAGRO] Fetching data from 2017-01-01 to 2017-12-31
+2025-06-24 18:08:04,522 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,522 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2017
+2025-06-24 18:08:04,522 - INFO - [BESTAGRO] Fetching data from 2018-01-01 to 2018-12-31
+2025-06-24 18:08:04,534 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,534 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2018
+2025-06-24 18:08:04,534 - INFO - [BESTAGRO] Fetching data from 2019-01-01 to 2019-12-31
+2025-06-24 18:08:04,545 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,545 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2019
+2025-06-24 18:08:04,545 - INFO - [BESTAGRO] Fetching data from 2020-01-01 to 2020-12-31
+2025-06-24 18:08:04,556 - ERROR - [BESTAGRO] Error: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-06-24 18:08:04,556 - WARNING - [BESTAGRO] \u26a0\ufe0f Failed for year 2020
+2025-06-24 18:08:04,556 - INFO - [BESTAGRO] Fetching data from 2021-01-01 to 2021-12-31
+2025-06-24 18:08:09,604 - INFO - [BESTAGRO] Saved new file.
+2025-06-24 18:08:09,621 - INFO - [BESTAGRO] Fetching data from 2022-01-01 to 2022-12-31
+2025-06-24 18:08:14,685 - INFO - [BESTAGRO] Appended 248 new rows.
+2025-06-24 18:08:14,701 - INFO - [BESTAGRO] Fetching data from 2023-01-01 to 2023-12-31
+2025-06-24 18:08:19,749 - INFO - [BESTAGRO] Appended 140 new rows.
+2025-06-24 18:08:19,763 - INFO - [BESTAGRO] Fetching data from 2024-01-01 to 2024-12-31
+2025-06-24 18:08:24,815 - INFO - [BESTAGRO] Appended 180 new rows.
+2025-06-24 18:08:24,832 - INFO - [BESTAGRO] Fetching data from 2025-01-01 to 2025-06-13
+2025-06-24 18:08:30,298 - INFO - [BESTAGRO] Appended 38 new rows.
+2025-06-24 18:08:30,299 - INFO - \U0001f504 Processing symbol: BFINVEST
+2025-06-24 18:08:30,327 - INFO - [BFINVEST] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,328 - INFO - \U0001f504 Processing symbol: BFSI
+2025-06-24 18:08:30,347 - INFO - [BFSI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,347 - INFO - \U0001f504 Processing symbol: BFUTILITIE
+2025-06-24 18:08:30,362 - INFO - [BFUTILITIE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,362 - INFO - \U0001f504 Processing symbol: BHAGCHEM
+2025-06-24 18:08:30,372 - INFO - [BHAGCHEM] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,373 - INFO - \U0001f504 Processing symbol: BHAGERIA
+2025-06-24 18:08:30,385 - INFO - [BHAGERIA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,385 - INFO - \U0001f504 Processing symbol: BHAGYANGR
+2025-06-24 18:08:30,404 - INFO - [BHAGYANGR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,405 - INFO - \U0001f504 Processing symbol: BHANDARI
+2025-06-24 18:08:30,418 - INFO - [BHANDARI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,419 - INFO - \U0001f504 Processing symbol: BHARATFORG
+2025-06-24 18:08:30,445 - INFO - [BHARATFORG] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,445 - INFO - \U0001f504 Processing symbol: BHARATGEAR
+2025-06-24 18:08:30,464 - INFO - [BHARATGEAR] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,464 - INFO - \U0001f504 Processing symbol: BHARATRAS
+2025-06-24 18:08:30,485 - INFO - [BHARATRAS] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,485 - INFO - \U0001f504 Processing symbol: BHARATWIRE
+2025-06-24 18:08:30,503 - INFO - [BHARATWIRE] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,503 - INFO - \U0001f504 Processing symbol: BHARTIARTL
+2025-06-24 18:08:30,522 - INFO - [BHARTIARTL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,522 - INFO - \U0001f504 Processing symbol: BHARTIHEXA
+2025-06-24 18:08:30,535 - INFO - [BHARTIHEXA] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,535 - INFO - \U0001f504 Processing symbol: BHEL
+2025-06-24 18:08:30,553 - INFO - [BHEL] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,553 - INFO - \U0001f504 Processing symbol: BIGBLOC
+2025-06-24 18:08:30,567 - INFO - [BIGBLOC] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,567 - INFO - \U0001f504 Processing symbol: BIKAJI
+2025-06-24 18:08:30,579 - INFO - [BIKAJI] \u23ed\ufe0f Skipped: already up-to-date till 2025-06-13
+2025-06-24 18:08:30,579 - INFO - \U0001f504 Processing symbol: BIL
+2025-06-24 18:08:30,579 - INFO - [BIL] Fetching data from 2000-01-01 to 2000-12-31
+2025-06-24 18:08:35,620 - INFO - [BIL] Saved new file.
+2025-06-24 18:08:35,633 - INFO - [BIL] Fetching data from 2001-01-01 to 2001-12-31
+2025-06-24 18:08:40,692 - INFO - [BIL] Appended 159 new rows.
+2025-06-24 18:08:40,808 - INFO - [BIL] Fetching data from 2002-01-01 to 2002-12-31
+2025-06-24 18:08:45,869 - INFO - [BIL] Appended 247 new rows.
+2025-06-24 18:08:45,885 - INFO - [BIL] Fetching data from 2003-01-01 to 2003-12-31
+2025-06-24 18:08:50,946 - INFO - [BIL] Appended 252 new rows.
+2025-06-24 18:08:50,966 - INFO - [BIL] Fetching data from 2004-01-01 to 2004-12-31
+2025-06-24 18:08:56,034 - INFO - [BIL] Appended 254 new rows.
+2025-06-24 18:08:56,050 - INFO - [BIL] Fetching data from 2005-01-01 to 2005-12-31
+2025-06-24 18:09:01,110 - INFO - [BIL] Appended 251 new rows.
+2025-06-24 18:09:01,132 - INFO - [BIL] Fetching data from 2006-01-01 to 2006-12-31
+2025-06-24 18:09:06,190 - INFO - [BIL] Appended 213 new rows.
+2025-06-24 18:09:06,205 - INFO - [BIL] Fetching data from 2007-01-01 to 2007-12-31
+2025-06-24 18:09:11,382 - INFO - [BIL] Appended 249 new rows.
+2025-06-24 18:09:11,398 - INFO - [BIL] Fetching data from 2008-01-01 to 2008-12-31
+2025-06-24 18:09:16,474 - INFO - [BIL] Appended 241 new rows.
+2025-06-24 18:09:16,490 - INFO - [BIL] Fetching data from 2009-01-01 to 2009-12-31
+2025-06-24 18:09:21,552 - INFO - [BIL] Appended 238 new rows.
+2025-06-24 18:09:21,571 - INFO - [BIL] Fetching data from 2010-01-01 to 2010-12-31
+2025-06-24 18:09:26,651 - INFO - [BIL] Appended 252 new rows.
+2025-06-24 18:09:26,667 - INFO - [BIL] Fetching data from 2011-01-01 to 2011-12-31
+2025-06-24 18:09:31,750 - INFO - [BIL] Appended 247 new rows.
+2025-06-24 18:09:31,784 - INFO - [BIL] Fetching data from 2012-01-01 to 2012-12-31
+2025-06-24 18:09:36,857 - INFO - [BIL] Appended 231 new rows.
+2025-06-24 18:09:36,882 - INFO - [BIL] Fetching data from 2013-01-01 to 2013-12-31
+2025-06-24 18:09:41,955 - INFO - [BIL] Appended 207 new rows.
+2025-06-24 18:09:41,984 - INFO - [BIL] Fetching data from 2014-01-01 to 2014-12-31
+2025-06-24 18:09:47,062 - INFO - [BIL] Appended 244 new rows.
+2025-06-24 18:09:47,087 - INFO - [BIL] Fetching data from 2015-01-01 to 2015-12-31
+2025-06-24 18:09:52,181 - INFO - [BIL] Appended 246 new rows.
+2025-06-24 18:09:52,214 - INFO - [BIL] Fetching data from 2016-01-01 to 2016-12-31

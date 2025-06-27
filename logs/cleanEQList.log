@@ -10,3 +10,9 @@
 2025-06-24 18:06:52,899 - INFO - Extracted 2109 unique underlying symbols, sorted alphabetically.
 2025-06-24 18:06:52,902 - INFO - Saved cleaned list to: c:\Coding\StockMarketApp\data\stockList\stockList_clean.csv
 2025-06-24 18:06:52,902 - INFO - ==== Symbol cleaning process completed ====
+2025-06-26 20:26:55,738 - INFO - ==== Starting symbol cleaning process ====
+2025-06-26 20:26:55,762 - INFO - Loaded file: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8407 rows.
+2025-06-26 20:26:55,771 - INFO - Filtered 2113 rows matching NSE EQ pattern.
+2025-06-26 20:26:55,774 - INFO - Extracted 2113 unique underlying symbols, sorted alphabetically.
+2025-06-26 20:26:55,775 - INFO - Saved cleaned list to: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_clean.csv
+2025-06-26 20:26:55,775 - INFO - ==== Symbol cleaning process completed ====

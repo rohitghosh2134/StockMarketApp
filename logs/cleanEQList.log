@@ -1,18 +1,18 @@
-2025-06-20 19:18:48,963 - INFO - ==== Starting symbol cleaning process ====
-2025-06-20 19:18:49,004 - INFO - Loaded file: /home/ghostkiller1403/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8355 rows.
-2025-06-20 19:18:49,012 - INFO - Filtered 2100 rows matching NSE EQ pattern.
-2025-06-20 19:18:49,016 - INFO - Extracted 2100 unique underlying symbols, sorted alphabetically.
-2025-06-20 19:18:49,019 - INFO - Saved cleaned list to: /home/ghostkiller1403/Coding/StockMarketApp/data/stockList/stockList_clean.csv
-2025-06-20 19:18:49,019 - INFO - ==== Symbol cleaning process completed ====
-2025-06-24 18:06:52,860 - INFO - ==== Starting symbol cleaning process ====
-2025-06-24 18:06:52,892 - INFO - Loaded file: c:\Coding\StockMarketApp\data\stockList\stockList_raw.csv with 8387 rows.
-2025-06-24 18:06:52,897 - INFO - Filtered 2109 rows matching NSE EQ pattern.
-2025-06-24 18:06:52,899 - INFO - Extracted 2109 unique underlying symbols, sorted alphabetically.
-2025-06-24 18:06:52,902 - INFO - Saved cleaned list to: c:\Coding\StockMarketApp\data\stockList\stockList_clean.csv
-2025-06-24 18:06:52,902 - INFO - ==== Symbol cleaning process completed ====
-2025-06-26 20:26:55,738 - INFO - ==== Starting symbol cleaning process ====
-2025-06-26 20:26:55,762 - INFO - Loaded file: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8407 rows.
-2025-06-26 20:26:55,771 - INFO - Filtered 2113 rows matching NSE EQ pattern.
-2025-06-26 20:26:55,774 - INFO - Extracted 2113 unique underlying symbols, sorted alphabetically.
-2025-06-26 20:26:55,775 - INFO - Saved cleaned list to: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_clean.csv
-2025-06-26 20:26:55,775 - INFO - ==== Symbol cleaning process completed ====
+2025-06-27 11:33:29,118 - INFO - ==== Starting symbol cleaning process ====
+2025-06-27 11:33:29,159 - INFO - Loaded file: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8437 rows.
+2025-06-27 11:33:29,163 - INFO - Filtered 2113 rows matching NSE EQ pattern.
+2025-06-27 11:33:29,164 - INFO - Extracted 2113 unique underlying symbols, sorted alphabetically.
+2025-06-27 11:33:29,166 - INFO - Saved cleaned list to: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_clean.csv
+2025-06-27 11:33:29,166 - INFO - ==== Symbol cleaning process completed ====
+2025-06-27 18:29:33,207 - INFO - ==== Starting symbol cleaning process ====
+2025-06-27 18:29:33,231 - INFO - Loaded file: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8437 rows.
+2025-06-27 18:29:33,239 - INFO - Filtered 2113 rows matching NSE EQ pattern.
+2025-06-27 18:29:33,241 - INFO - Extracted 2113 unique underlying symbols, sorted alphabetically.
+2025-06-27 18:29:33,243 - INFO - Saved cleaned list to: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_clean.csv
+2025-06-27 18:29:33,243 - INFO - ==== Symbol cleaning process completed ====
+2025-06-28 12:44:31,130 - INFO - ==== Starting symbol cleaning process ====
+2025-06-28 12:44:31,159 - INFO - Loaded file: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_raw.csv with 8264 rows.
+2025-06-28 12:44:31,163 - INFO - Filtered 2045 rows matching NSE EQ pattern.
+2025-06-28 12:44:31,165 - INFO - Extracted 2045 unique underlying symbols, sorted alphabetically.
+2025-06-28 12:44:31,167 - INFO - Saved cleaned list to: /home/rohitghosh/Coding/StockMarketApp/data/stockList/stockList_clean.csv
+2025-06-28 12:44:31,167 - INFO - ==== Symbol cleaning process completed ====

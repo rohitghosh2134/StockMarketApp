@@ -19,7 +19,7 @@ END_DATE = date(END_YEAR, END_MONTH, END_DAY)
 # === File and directory paths ===
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 stock_list_path = os.path.join(BASE_DIR, "data", "stockList", "stockList_clean.csv")
-raw_data_dir = os.path.join(BASE_DIR, "data", "rawData")
+raw_data_dir = os.path.join(BASE_DIR, "data", "raw")
 log_dir = os.path.join(BASE_DIR, "logs")
 log_file = os.path.join(log_dir, "getRawStock.log")
 

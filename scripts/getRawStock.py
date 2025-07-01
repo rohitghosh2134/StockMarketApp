@@ -8,6 +8,7 @@ from time import sleep
 from jugaad_data.nse import stock_df
 import logging
 import argparse
+from collections import defaultdict
 
 # === Configurable Date Range ===
 START_YEAR, START_MONTH, START_DAY = 2000, 1, 1
@@ -130,6 +131,7 @@ def get_last_processed_symbol_from_log():
     except Exception as e:
         logging.warning(f"⚠️ Failed to read log file: {e}")
     return None
+
 def main():
     launch_log_viewer()
     logging.info("==== Starting getRawStock ====")
@@ -153,6 +155,12 @@ def main():
         terminate_log_viewer()
         return
 
+    # Find symbols present in raw_data_dir but NOT in stockList_clean
+    files_in_raw_dir = [
+        f.replace(".csv", "") for f in os.listdir(raw_data_dir) if f.endswith(".csv")
+    ]
+    symbols_not_in_list = list(set(files_in_raw_dir) - set(symbols))
+
     if args.resume:
         last_symbol = get_last_processed_symbol_from_log()
         if last_symbol and last_symbol in symbols:
@@ -161,6 +169,8 @@ def main():
             logging.info(f"⏯️ Resuming from last logged symbol: {last_symbol}")
         else:
             logging.warning(f"⚠️ Last symbol '{last_symbol}' not found in stock list. Starting fresh.")
+
+    error_symbols = []
 
     for symbol in symbols:
         logging.info(f"🔄 Processing symbol: {symbol}")
@@ -175,8 +185,6 @@ def main():
                 if "date" in df_existing.columns:
                     df_existing["date"] = pd.to_datetime(df_existing["date"], errors='coerce')
                     last_date = df_existing["date"].max().date()
-                    
-
                     if last_date >= END_DATE:
                         logging.info(f"[{symbol}] ⏭️ Skipped: already up-to-date till {last_date}")
                         already_updated = True
@@ -199,9 +207,26 @@ def main():
                     logging.warning(f"[{symbol}] ⚠️ Failed for year {year}")
 
             if failed:
-                logging.warning(f"[{symbol}] ❌ Skipped due to failure in all years")        
+                logging.warning(f"[{symbol}] ❌ Skipped due to failure in all years")
+                error_symbols.append(symbol)
+
+    # After processing all symbols, log the two sections:
+
+    if symbols_not_in_list:
+        logging.info("\n=== Symbols in raw data directory NOT in stock list ===")
+        for sym in symbols_not_in_list:
+            logging.info(sym)
+    else:
+        logging.info("No symbols found in raw data directory that are missing from stock list.")
+
+    if error_symbols:
+        logging.info("\n=== Symbols that had errors during data fetch ===")
+        for sym in error_symbols:
+            logging.info(sym)
+    else:
+        logging.info("No symbols encountered errors during fetching.")
+
     logging.info("✅✅✅ Stock data fetch complete.")
     terminate_log_viewer()
-
 if __name__ == "__main__":
     main()
